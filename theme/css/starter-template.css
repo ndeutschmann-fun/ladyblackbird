@@ -565,7 +565,6 @@ section.success {
 }}
 
 .article-col {
-  min-height: 500px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -574,6 +573,11 @@ section.success {
   background-color: #b7b09c;
 }
 
+@media (min-width: 768px){
+.article-col {
+  min-height: 500px;
+}
+}
 
 article p,.subheader {
   text-align: justify;
