@@ -575,7 +575,7 @@ section.success {
 
 @media (min-width: 768px){
 .article-col {
-  min-height: 600px;
+  min-height: 400px;
 }
 }
 
