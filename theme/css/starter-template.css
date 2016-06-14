@@ -278,9 +278,9 @@ section {
 }
 
 .outtro {
-  margin-top: 15!important;
+  margin-top: 15px!important;
   margin-bottom: 0!important;
-  padding-top:2px;
+  padding-top:10px;
   padding-bottom:2px;
   color: #ffffff;
   background: #6b868c;
