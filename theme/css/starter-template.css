@@ -1,0 +1,604 @@
+@font-face {
+font-family: 'OldStyle';
+src: url("http://ndeutschmann-fun.github.io/lady-blackbird-srd/theme/fonts/OldstyHPLHS.otf") format("opentype");
+}
+
+@font-face {
+font-family: 'Headline';
+src: url("http://ndeutschmann-fun.github.io/lady-blackbird-srd/theme/fonts/HeadlTwoHPLHS.otf") format("opentype");
+}
+
+@font-face {
+font-family: 'Slab';
+src: url("http://ndeutschmann-fun.github.io/lady-blackbird-srd/theme/fonts/SlabSerHPLHS.otf") format("opentype");
+}
+
+@font-face {
+font-family: 'Blackletter';
+src: url("http://ndeutschmann-fun.github.io/lady-blackbird-srd/theme/fonts/BlackHPLHS.otf") format("opentype");
+}
+
+
+body {
+  background-color: #F1E7CD ;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  font-family: 'OldStyle','Roboto','Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+p {
+    font-size: 15px;
+    word-wrap: break-word;
+}
+p.small {
+    font-size: 10px;
+    text-align: justify;
+}
+
+@media (min-width: 768px){
+p {
+    font-size: 20px;
+}
+p.small {
+    font-size: 15px;
+}}
+
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: 'Headline','Roboto','Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+h1,h2 {
+  /*text-transform: uppercase;*/
+  font-family: 'Blackletter','Roboto','Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+@media (min-width: 768px){
+h2 {
+  font-size: 60px;
+}}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0px;
+    background-color: #01272f;
+    /*background-color: #FF7C00; ORANGE*/
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    margin-bottom: 0!important;
+}
+
+.navbar-right {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 40px;
+    vertical-align: "middle";
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #808080;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+@media (max-width: 800px){
+  .navbar-right {
+    font-size: 8px;
+  }
+}
+
+.navbar.shrink .navbar-right {
+  line-height: 25px;
+}
+
+.navbar.shrink {
+  font-size: 12px;
+}
+.navbar-brand {
+  font-size: 25px;
+  color: #ffffff !important;
+
+}
+
+
+.navbar-brand.shrink {
+  font-size: 25px;
+}
+
+.navbar-brand img {
+  height: 25px;
+  padding-top: 0px;
+  vertical-align: "bottom";
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.navbar-brand.shrink img {
+  height: 25px;
+  align: 'top';
+  padding-top: 0px;
+}
+
+@media (min-width: 768px){
+.navbar-brand img {
+  height: 50px;
+  padding-top: 0px;
+  vertical-align: "bottom";
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.navbar-brand.shrink img {
+  height: 35px;
+  align: 'top';
+  padding-top: 0px;
+}}
+
+
+.navbar .nav li a {
+    line-height: 50px;
+    color: #808080;
+}
+
+.navbar.shrink .nav li a {
+    line-height: 35px;
+}
+
+
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #023c48;
+  /*background-color: #9C6300;*/
+
+}
+
+
+.dropdown-menu {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #808080;
+  background-color: #01272f;
+}
+
+.navbar.shrink .dropdown-menu {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #808080;
+  background-color: #01272f;
+  padding: 0;
+  margin:0;
+  line-height: 0;
+}
+
+
+.navbar .dropdown-menu li >a {
+  height:40px;
+  line-height: 20px;
+  background-color: #01272f;
+}
+
+.navbar .dropdown-menu li >a:hover {
+  color: #FFFFFF;
+}
+
+
+.navbar.shrink .dropdown-menu li >a {
+  color:#808080;
+  height:20px;
+  line-height: 10px;
+  vertical-align: middle;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.navbar.shrink .dropdown-menu li >a:hover {
+  color:#ffffff;
+  background-color: #01272f;
+}
+
+
+.starter-template {
+    padding-top: 0px;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.starter-template a:not(.btn) {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+}
+
+@media (min-width: 768px){
+.starter-template a:not(.btn){
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+}
+}
+
+.box-shad {
+  -webkit-box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.75);
+}
+
+.box-shad2 {
+  -webkit-box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 0px 8px rgba(0,0,0,0.75);
+}
+
+.box-shad3 {
+  -webkit-box-shadow: 0px 0px 0px 2px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 0px 2px rgba(0,0,0,1);
+  box-shadow: 0px 0px 0px 2px rgba(0,0,0,1);
+}
+
+
+
+section {
+  /*font-size: 20px;*/
+  padding-top: 60px;
+  padding-bottom: 100px;
+  margin-bottom: 0!important;
+}
+
+
+.intro {
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+  padding-top:80px;
+  padding-bottom:20px;
+  color: #ffffff;
+  background: #611302;/*#037a55;
+  /*background: #03637A;*/
+}
+
+.outtro {
+  margin-top: 15!important;
+  margin-bottom: 0!important;
+  padding-top:2px;
+  padding-bottom:2px;
+  color: #ffffff;
+  background: #6b868c;
+  align-content:center!important;
+}
+
+
+.footer p, .footer a {
+  color: #ffffff!important;
+  font-size: 10px!important;
+}
+
+.footer p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.vcenter {
+
+}
+
+.research-intro {
+  margin-top: 0!important;
+  margin-bottom: 0!important;
+  padding-top:80px;
+  padding-bottom:55px;
+  background: #611302!important;/*#037a55;
+  /*background: #03637A;*/
+}
+
+
+h1 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+@media (min-width: 768px){
+.intro h3 {
+  font-size: 35px;
+}}
+
+.intro h1 {
+  font-size: 50px;
+  padding-bottom: 5px;
+  text-align: center;
+
+}
+
+@media (min-width: 768px){
+.intro h1 {
+  font-size: 90px;
+  text-align: left;
+  padding-bottom: 0px;
+}}
+
+@media (min-width: 992px){
+.titlehead {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+}}
+
+.me {
+  margin-top: 20px;
+  width: 200px;
+}
+
+
+@media (min-width: 992px){
+.me{
+    width: 100%;
+  }
+}
+
+
+a.box {
+    color: #ffffff!important;
+}
+
+a.box:hover{
+  text-decoration: none!important;
+}
+
+.intro-link {
+  padding-bottom: 30px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.intro-link:hover {
+  background-color: #2f0901;
+}
+
+.intro-text {
+  padding-top: 40px;
+  text-align: left;
+  font-size: 2em;
+}
+
+
+
+section.success {
+    color: #fff;
+    background: #17bb8c;
+    padding-bottom: 400px;
+}
+
+#teaching {
+  color: #eeeeee;
+  background-color: #9C6300;
+}
+
+.teaching-experience {
+  text-align: left;
+}
+
+#teaching li {
+  font-size: 20px;
+}
+
+#teaching a {
+  color: #ffffff;
+}
+
+#teaching a:hover {
+  color: #bbbbbb;
+}
+
+#teaching p {
+  text-align: left;
+}
+
+.research-topic {
+  height: 100px;
+}
+
+@media (min-width: 992px){
+.research > div {
+  height: 35em;
+}
+}
+
+.research a {
+  font-size: 1em!important;
+}
+
+
+
+.research-collapse {
+  text-align: left;
+}
+
+.research-collapse li {
+  margin-bottom: 2em;
+}
+
+.research-collapse > * {
+  margin-left: 10px;
+}
+
+.research-collapse h4 {
+  display: inline;
+}
+
+.authors a {
+  font-size: 15px;
+}
+
+.journal {
+  font-size: 17px;
+}
+
+.details-title {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.collapse-btn {
+  text-align: right;
+}
+
+.ksppic {
+  background-color: #FFFFFF;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.ksppic:hover {
+  opacity: 0.7;
+  /*background-color: #b5c1d3;*/
+  /*-webkit-box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.75);*/
+  /*-moz-box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.75);*/
+  /*box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.75);*/
+  /*#476591;*/
+}
+
+#worldmap {
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.75);
+}
+
+#contact a {
+  font-size: 1.2em;
+}
+
+.address {
+  font-size: 18px;
+}
+
+.mapwrap {
+  margin-top: 10px;
+  width = 100%;
+  background-color: #000000;
+  /*background: url(clickme.png)*/
+}
+
+.map {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+
+}
+.map:hover {
+  opacity:0.8;
+ }
+
+.social-btns {
+  align-self: center;
+  max-width: 300px;
+}
+
+.row.social {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  align-self: center;
+}
+
+.social {
+   margin-top: 0 em;
+   margin-bottom: 0 em;
+ }
+
+.social-line {
+  border-color: #000000;
+}
+
+
+@media (min-width: 768px){
+  .social-line {
+    border-color: #ffffff;
+}}
+
+@media (max-width: 1199px){
+#inspirebutton {
+  margin-top: 2em;
+}}
+
+.mailbtn {
+   font-size: 30px;
+   font-weight: bold;
+   margin-top: 0px;
+ }
+
+ .blogbtn {
+    border-color:     #023c48;
+    background-color: #023c48;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+
+/*Pelican specific*/
+
+@media (min-width: 768px){
+.container-fluid {
+  margin-left: 5em;
+  margin-right: 5em;
+}}
+
+.article-col {
+  min-height: 500px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.article-col:hover {
+  background-color: #b7b09c;
+}
+
+
+article p,.subheader {
+  text-align: justify;
+  font-weight: normal!important;
+}
+
+article.first {
+  padding-top: 20px;
+  /*margin-left: 3em;*/
+  /*margin-right: 3em;*/
+}
+
+.article-page {
+  padding-top: 70px;
+  /*margin-left: 3em;*/
+  /*margin-right: 3em;  */
+}
+
+.category-title {
+  font-size: 3em!important;
+  font-family: 'Headline';
+}
+
+/*Make Flaticon adapt to env font size*/
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+font-size: 1em;
+}
