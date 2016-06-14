@@ -573,11 +573,10 @@ section.success {
   background-color: #b7b09c;
 }
 
-/*@media (min-width: 992px){*/
+@media (min-width: 768px){
 .article-col {
-  min-height: 900px;
-}
-/*}*/
+  min-height: 600px;
+}}
 
 article p,.subheader {
   text-align: justify;
