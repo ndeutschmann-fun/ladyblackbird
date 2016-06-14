@@ -573,9 +573,9 @@ section.success {
   background-color: #b7b09c;
 }
 
-@media (min-width: 768px){
+@media (min-width: 992px){
 .article-col {
-  min-height: 400px;
+  min-height: 500px;
 }
 }
 
