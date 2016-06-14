@@ -1,21 +1,21 @@
 @font-face {
 font-family: 'OldStyle';
-src: url("http://ndeutschmann-fun.github.io/lady-blackbird-srd/theme/fonts/OldstyHPLHS.otf") format("opentype");
+src: url("http://ndeutschmann-fun.github.io/ladyblackbird/theme/fonts/OldstyHPLHS.otf") format("opentype");
 }
 
 @font-face {
 font-family: 'Headline';
-src: url("http://ndeutschmann-fun.github.io/lady-blackbird-srd/theme/fonts/HeadlTwoHPLHS.otf") format("opentype");
+src: url("http://ndeutschmann-fun.github.io/ladyblackbird/theme/fonts/HeadlTwoHPLHS.otf") format("opentype");
 }
 
 @font-face {
 font-family: 'Slab';
-src: url("http://ndeutschmann-fun.github.io/lady-blackbird-srd/theme/fonts/SlabSerHPLHS.otf") format("opentype");
+src: url("http://ndeutschmann-fun.github.io/ladyblackbird/theme/fonts/SlabSerHPLHS.otf") format("opentype");
 }
 
 @font-face {
 font-family: 'Blackletter';
-src: url("http://ndeutschmann-fun.github.io/lady-blackbird-srd/theme/fonts/BlackHPLHS.otf") format("opentype");
+src: url("http://ndeutschmann-fun.github.io/ladyblackbird/theme/fonts/BlackHPLHS.otf") format("opentype");
 }
 
 
