@@ -280,7 +280,7 @@ section {
 .outtro {
   margin-top: 15px!important;
   margin-bottom: 0!important;
-  padding-top:50px;
+  padding-top:10px;
   padding-bottom:2px;
   color: #ffffff;
   background: #6b868c;
@@ -290,7 +290,7 @@ section {
 
 .footer p, .footer a {
   color: #ffffff!important;
-  font-size: 10px!important;
+  font-size: 15px!important;
 }
 
 .footer p {
@@ -298,9 +298,6 @@ section {
   vertical-align: middle;
 }
 
-.vcenter {
-
-}
 
 .research-intro {
   margin-top: 0!important;
